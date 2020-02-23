@@ -54,3 +54,19 @@ nav {
 #top-options {
 
 }
+
+
+.bottom-bar {
+  background-color: #ddd5;
+  border: solid 1px #ddda;
+  height:38px;
+  margin: -1px 0 0 0;
+}
+
+footer {
+  width:1920px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
