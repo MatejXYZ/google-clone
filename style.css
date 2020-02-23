@@ -36,3 +36,21 @@
   .search-buttons {
     height:40px;
   }
+
+nav {
+  background-color:#f004;
+  position:absolute;
+  right:10px;
+  height:20px;
+  width:490px;
+  }
+
+.nav-bar-parts {
+  margin:0px 10px;
+  width:150px;
+  display:inline;
+}
+
+#top-options {
+
+}
