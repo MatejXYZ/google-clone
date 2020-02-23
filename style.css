@@ -1,6 +1,38 @@
-.blue-box {
-    background-color:aqua;
+#sign 
+{    background-color:#69c;
   }
+  
   .underlined :hover {
     text-decoration:underline;
+  }
+  
+  .centered{
+    display:block;
+    margin:auto;
+  }
+  
+  #logo{
+    width:272px;
+  }
+  
+  #search{
+    width: 500px;
+  }
+  
+  #search-buttons{
+    width:500px;
+    display:flex;
+  }
+  
+  #google-search-button{
+    width:140px;
+    margin:30px 5px 0px auto;
+  }
+  #lucky-search-button{
+    width:180px;
+    margin:30px auto 0px 5px;
+  }
+  
+  .search-buttons {
+    height:40px;
   }
