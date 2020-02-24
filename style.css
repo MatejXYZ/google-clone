@@ -1,3 +1,8 @@
+*|* {
+  box-sizing:border-box;
+  margin:0px;
+}
+
 #sign{    background-color:#69c;
 }
 
@@ -21,12 +26,33 @@ main {
   margin:auto;
 }
 
+form {
+  width:600px;
+  height:50px;
+  display:block;
+  margin:auto;
+  background-color:#f999;
+  text-align:center;
+}
+
+.search-bar {
+  height:25px;
+}
+
 #logo{
   width:272px;
 }
 
 #search{
   width: 500px;
+}
+
+#glass{
+  width:20px;
+}
+#glass2{
+  width:20px;
+  opacity:50%;
 }
 
 #search-buttons{
@@ -80,3 +106,6 @@ bottom:0;
 left:0;
 right:0;
 }
+
+
+
