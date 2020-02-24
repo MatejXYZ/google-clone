@@ -1,54 +1,64 @@
-#sign 
-{    background-color:#69c;
-  }
-  
-  .underlined :hover {
-    text-decoration:underline;
-  }
-  
-  .centered{
-    display:block;
-    margin:auto;
-  }
-  
-  #logo{
-    width:272px;
-  }
-  
-  #search{
-    width: 500px;
-  }
-  
-  #search-buttons{
-    width:500px;
-    display:flex;
-  }
-  
-  #google-search-button{
-    width:140px;
-    margin:30px 5px 0px auto;
-  }
-  #lucky-search-button{
-    width:180px;
-    margin:30px auto 0px 5px;
-  }
-  
-  .search-buttons {
-    height:40px;
-  }
+#sign{    background-color:#69c;
+}
+
+.underlined :hover {
+  text-decoration:underline;
+}
+
+main{
+position:relative;
+min-width:960px;
+top:200px;
+}
+@media screen and (max-height:650px){
+main {
+  top:150px;
+}
+}
+
+.centered{
+  display:block;
+  margin:auto;
+}
+
+#logo{
+  width:272px;
+}
+
+#search{
+  width: 500px;
+}
+
+#search-buttons{
+  width:500px;
+  display:flex;
+}
+
+#google-search-button{
+  width:140px;
+  margin:30px 5px 0px auto;
+}
+#lucky-search-button{
+  width:180px;
+  margin:30px auto 0px 5px;
+}
+
+.search-buttons {
+  height:40px;
+}
 
 nav {
-  background-color:#f004;
-  position:absolute;
-  right:10px;
-  height:20px;
-  width:490px;
-  }
+background-color:#f004;
+position:absolute;
+right:10px;
+height:20px;
+width:490px;
+}
 
 .nav-bar-parts {
-  margin:0px 10px;
-  width:150px;
-  display:inline;
+margin:0px 10px;
+width:150px;
+display:inline;
 }
 
 #top-options {
@@ -57,16 +67,16 @@ nav {
 
 
 .bottom-bar {
-  background-color: #ddd5;
-  border: solid 1px #ddda;
-  height:38px;
-  margin: -1px 0 0 0;
+background-color: #ddd5;
+border: solid 1px #ddda;
+height:38px;
+margin: -1px 0 0 0;
 }
 
 footer {
-  width:1920px;
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
+width:1920px;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
 }
