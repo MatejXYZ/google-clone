@@ -67,17 +67,31 @@ border:transparent;
 }
 
 nav {
-background-color:#f004;
-position:absolute;
-right:10px;
-height:20px;
-width:490px;
+position:relative;
+display:inline-flex;
+flex-direction:row;
+left:1600px;
 }
 
 .nav-bar-parts {
-margin:0px 10px;
-width:150px;
-display:inline;
+  margin:auto 10px;
+}
+
+.top-right {
+  margin:10px 10px;
+}
+
+#sign {
+  width: 70px;
+  height: 30px;
+  background-color:#69c;
+  
+}
+
+#square{
+  background-color:black;
+  width:30px;
+  height:30px;
 }
 
 .bottom-bar {
@@ -111,9 +125,6 @@ p {
 
 .underlined :hover {
   text-decoration:underline;
-}
-
-#sign{    background-color:#69c;
 }
 
 body {
