@@ -27,15 +27,14 @@ main {
 }
 
 form {
-  width:900px;
+  width:570px;
   height:50px;
   display:block;
   margin: 30px auto;
   text-align:center;
-}
-
-.search-bar {
-  height:25px;
+  border:solid black 1px;
+  border-radius:50px;
+  padding:13px;
 }
 
 #logo{
@@ -43,24 +42,21 @@ form {
 }
 
 #search{
-  width: 520px;
-  height:48px;
+  width: 510px;
+  height:28px;
 }
 
-form {
-  background-color:#f599;
-}
 input {
-  background-color:#f959;
+border:transparent;
 }
 
 #glass{
-  width:30px;
+  width:17px;
 }
-#glass2{
+/*#glass2{
   width:30px;
   opacity:50%;
-}
+}*/
 
 #search-buttons{
   width:500px;
