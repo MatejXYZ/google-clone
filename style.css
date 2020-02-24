@@ -27,11 +27,10 @@ main {
 }
 
 form {
-  width:600px;
+  width:900px;
   height:50px;
   display:block;
-  margin:auto;
-  background-color:#f999;
+  margin: 30px auto;
   text-align:center;
 }
 
@@ -44,14 +43,22 @@ form {
 }
 
 #search{
-  width: 500px;
+  width: 520px;
+  height:48px;
+}
+
+form {
+  background-color:#f599;
+}
+input {
+  background-color:#f959;
 }
 
 #glass{
-  width:20px;
+  width:30px;
 }
 #glass2{
-  width:20px;
+  width:30px;
   opacity:50%;
 }
 
@@ -106,6 +113,3 @@ bottom:0;
 left:0;
 right:0;
 }
-
-
-
